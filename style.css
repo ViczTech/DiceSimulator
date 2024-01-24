@@ -1,0 +1,13 @@
+.animate{
+    animation-name: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+  @keyframes show {
+      0%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 100%;
+      }
+  }
